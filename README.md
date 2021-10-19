@@ -12,7 +12,6 @@ This is the first branch of the BookStore project. It covers setting up of react
 | Contents                  |
 | ------------------------- |
 | [Live Demo](#live-demo) |
-<!-- | [App Screenshot](#app-screenshot) | -->
 | [Built With](#built-with)   |
 | [Getting Started](#getting-started)   |
 | [Linters](#linters)   |
