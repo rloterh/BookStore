@@ -33,6 +33,9 @@ This is the first branch of the BookStore project. It covers setting up of react
 
 - React 17.02
 - JavaScript (ES6)
+- Node.js
+- Redux
+- CSS
 - ESLint 7.32
 - Airbnb ESLint 18.2.1
 - Stylelint 13.13.1
