@@ -12,7 +12,7 @@ This is the first branch of the BookStore project. It covers setting up of react
 | Contents                  |
 | ------------------------- |
 | [Live Demo](#live-demo) |
-| [App Screenshot](#app-screenshot) |
+<!-- | [App Screenshot](#app-screenshot) | -->
 | [Built With](#built-with)   |
 | [Getting Started](#getting-started)   |
 | [Linters](#linters)   |
@@ -21,12 +21,12 @@ This is the first branch of the BookStore project. It covers setting up of react
 
 
 ## Live Demo
-[BookStore live demo](/)
+[BookStore live demo](https://secure-dawn-45351.herokuapp.com/)
 
-## App Screenshot
+<!-- ## App Screenshot
 | |
 |:-------------------------:|
-| <img alt="BookStore App" src=""> <p align="center"><b>BookStore</b><p>|
+| <img alt="BookStore App" src=""> <p align="center"><b>BookStore</b><p>| -->
 
 
 ## Built With
