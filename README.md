@@ -1,9 +1,9 @@
-# BookStore - Project Setup (Microverse React Module)
+# BookStore - Components and Redux Store (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the first branch of the BookStore project. It covers setting up of react project structure, adding necessary node dependendies and deploying the app to [heroku](https://www.heroku.com).
+This is the second milestone of the BookStore project. This encompasses the setting up Redux store and necessary components needed for the Bookstore application.
 
 
 
