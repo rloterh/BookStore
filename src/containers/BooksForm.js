@@ -7,12 +7,13 @@ const BooksForm = () => {
   ));
 
   return (
-    <imput type="text" className="input">
+    <form>
+      <input type="text" name="title" id="title" className="input" />
       <select>
         {options}
       </select>
       <button type="submit">Add Book</button>
-    </imput>
+    </form>
   );
 };
 
