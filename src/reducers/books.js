@@ -1,17 +1,17 @@
 const initialState = [
   {
-    id: Math.random(),
+    id: Math.ceil(Math.random() * 1000),
     title: 'React Fundamentals',
     category: 'Learning - Beginner',
   },
   {
-    id: Math.random(),
+    id: Math.ceil(Math.random() * 1000),
     title: 'React for Developers',
     category: 'Learning - Intermediate',
   },
   {
-    id: Math.random(),
-    title: 'Reacr for Professionals',
+    id: Math.ceil(Math.random() * 1000),
+    title: 'React for Professionals',
     category: 'Learning - Advanced',
   },
 ];
