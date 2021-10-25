@@ -1,3 +1,7 @@
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { CREATE_BOOK } from '../actions/index';
+
 const BooksForm = () => {
   const categories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
   const options = categories.map((category) => (
@@ -6,14 +10,22 @@ const BooksForm = () => {
     </option>
   ));
 
+  const [book, setBook] = useState({ title: '', category: '' });
+  const dispatch = useDispatch();
+
   return (
-    <form>
-      <input type="text" name="title" id="title" className="input" />
-      <select>
-        {options}
-      </select>
-      <button type="submit">Add Book</button>
-    </form>
+    <>
+      <div>Books Form</div>
+
+      <form>
+        <input type="text" name="title" className="input" />
+        <select name="category">
+          {options}
+        </select>
+        <button type="submit" className="btn">Add Book</button>
+      </form>
+
+    </>
   );
 };
 
