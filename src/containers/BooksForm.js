@@ -13,13 +13,30 @@ const BooksForm = () => {
   const [book, setBook] = useState({ title: '', category: '' });
   const dispatch = useDispatch();
 
+  const handleChange = (e) => {
+    const cloneBook = { ...book };
+    cloneBook[e.target.name] = e.target.value;
+    setBook(cloneBook);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const cloneBook = { ...book };
+    if (book.category === '') {
+      cloneBook.category = 'Action';
+    }
+    cloneBook.id = Math.ceil(Math.random() * 1000);
+    dispatch(CREATE_BOOK(cloneBook));
+    setBook({ title: '', category: '' });
+  };
+
   return (
     <>
       <div>Books Form</div>
 
-      <form>
-        <input type="text" name="title" className="input" />
-        <select name="category">
+      <form onSubmit={handleSubmit}>
+        <input type="text" name="title" onChange={handleChange} className="input" />
+        <select name="category" onChange={handleChange}>
           {options}
         </select>
         <button type="submit" className="btn">Add Book</button>
