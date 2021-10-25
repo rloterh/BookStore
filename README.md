@@ -1,9 +1,9 @@
-# BookStore - Components and Redux Store (Microverse React Module)
+# BookStore - Interactivity (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the second milestone of the BookStore project. This encompasses the setting up Redux store and necessary components needed for the Bookstore application.
+This is the third milestone of the BookStore application. In this milestone, books can be added or removed from Redux store. Bookstore application.
 
 
 
