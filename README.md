@@ -1,9 +1,9 @@
-# BookStore - Interactivity (Microverse React Module)
+# BookStore - Category Filter (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the third milestone of the BookStore application. In this milestone, books can be added or removed from Redux store. Bookstore application.
+This is the fourth milestone of the BookStore application. In this milestone, a functionality to be able to filter books in the table by category was implemented.
 
 
 
