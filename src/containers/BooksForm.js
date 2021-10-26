@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { CREATE_BOOK } from '../actions/index';
 
+const categories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
+
 const BooksForm = () => {
-  const categories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
   const options = categories.map((category) => (
     <option value={category} key={category}>
       {category}
@@ -34,12 +35,12 @@ const BooksForm = () => {
     <>
       <div>Books Form</div>
 
-      <form onSubmit={handleSubmit}>
+      <form action="POST" onSubmit={handleSubmit}>
         <input type="text" name="title" onChange={handleChange} className="input" />
         <select name="category" onChange={handleChange}>
           {options}
         </select>
-        <button type="submit" className="btn">Add Book</button>
+        <button type="submit">Add Book</button>
       </form>
 
     </>
@@ -47,3 +48,5 @@ const BooksForm = () => {
 };
 
 export default BooksForm;
+
+export { categories };
