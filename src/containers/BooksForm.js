@@ -5,7 +5,6 @@ import { CREATE_BOOK } from '../actions/index';
 const categories = ['Action', 'Biography', 'History', 'Horror', 'Kids', 'Learning', 'Sci-Fi'];
 
 const BooksForm = () => {
-
   const [book, setBook] = useState({ title: '', category: '' });
   const dispatch = useDispatch();
 
