@@ -1,9 +1,9 @@
-# BookStore - Category Filter (Microverse React Module)
+# BookStore - User Interface (Microverse React Module)
 
 ![Microverse](https://img.shields.io/badge/-Microverse-007bff?style=for-the-badge)
 
 ## Description
-This is the fourth milestone of the BookStore application. In this milestone, a functionality to be able to filter books in the table by category was implemented.
+This is the fifth milestone of the BookStore application. CSS styling was added to improve the User Interface.
 
 
 
@@ -34,7 +34,7 @@ This is the fourth milestone of the BookStore application. In this milestone, a 
 - JavaScript (ES6)
 - Node.js
 - Redux
-- CSS
+- CSS/ Bootstrap 4
 - ESLint 7.32
 - Airbnb ESLint 18.2.1
 - Stylelint 13.13.1
