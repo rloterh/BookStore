@@ -60,7 +60,7 @@ The syntax of this project was mainly standardized using [Stylelint](https://sty
 3. - Go to the terminal, and navigate to project directory
 4. - Run the command `npm i`
 5. - Validate the javascript syntax and code standard by running the command `npx eslint app.js`
-6. - All test cases passes, when no error message is shown in the terminal
+6. - All validation passes, when no error message is shown in the terminal
 
 ### Validating CSS Syntax
 
@@ -69,7 +69,7 @@ The syntax of this project was mainly standardized using [Stylelint](https://sty
 3. - Go to the terminal, and navigate to project directory
 4. - Run the command `npm i`
 5. - Validate the css syntax and code standard by running the command `npx stylelint "**/*.{css,scss}"`
-6. - All test cases passes, when no error message is shown in the terminal
+6. - All validation passes, when no error message is shown in the terminal
 
 
 
